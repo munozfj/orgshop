@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/public/home/home.component';
-import { NotFoundComponent } from './components/public/notfound/notfound.component';
 import { ProductsComponent } from './components/public/products/products.component';
 import { ShoppingCartComponent } from './components/public/shopping-cart/shopping-cart.component';
 import { CheckOutComponent } from './components/public/check-out/check-out.component';
@@ -10,6 +9,7 @@ import { LoginComponent } from './components/public/login/login.component';
 import { UserOrdersComponent } from './components/user/user-orders/user-orders.component';
 import { AdminProductsComponent } from './components/admin/admin-products/admin-products.component';
 import { AdminOrdersComponent } from './components/admin/admin-orders/admin-orders.component';
+import { NotFoundComponent } from './components/public/not-found/not-found.component';
 
 const routes: Routes = [
   { path: 'products', component: ProductsComponent },

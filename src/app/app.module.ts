@@ -19,7 +19,8 @@ import { UserOrdersComponent } from './components/user/user-orders/user-orders.c
 import { OrderSuccessComponent } from './components/public/order-success/order-success.component';
 import { AdminProductsComponent } from './components/admin/admin-products/admin-products.component';
 import { AdminOrdersComponent } from './components/admin/admin-orders/admin-orders.component';
-import { NotFoundComponent } from './components/public/notfound/notfound.component';
+import { NotFoundComponent } from './components/public/not-found/not-found.component';
+
 
 
 @NgModule({
